@@ -7,3 +7,9 @@ names.forEach((name) => {
         $("ul").append($("<li>").html(name));
     }
 });
+
+let additionalBlock = {
+    title: "Added with javascript",
+    text: "This block was added using JavaScript's jQuery library. How awesome!"
+};
+
