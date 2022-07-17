@@ -13,3 +13,5 @@ let additionalBlock = {
     text: "This block was added using JavaScript's jQuery library. How awesome!"
 };
 
+$("body").append($("<h1>").html(additionalBlock.title));
+$("body").append($("<p>").html(additionalBlock.text));
