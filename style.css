@@ -1,0 +1,19 @@
+header {
+    color: purple;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  ol {
+    list-style-type: upper-roman;
+  }
+  
+  .underlined {
+    text-decoration: underline;
+  }
+  
+  .colored {
+    color: red;
+  }
